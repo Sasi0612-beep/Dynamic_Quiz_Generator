@@ -9,7 +9,7 @@ public class QuizApp {
     private static final Scanner sc = new Scanner(System.in);
     
     // PUT YOUR Qwen-3 API KEY HERE:
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "YOUR_API_KEY";
 
     private static final Map<String, List<String>> SUBJECT_TOPICS = Map.ofEntries(
         Map.entry("Java", List.of(
@@ -48,7 +48,7 @@ public class QuizApp {
     );
 
     private static final String API_ENDPOINT =
-        "https://openrouter.ai/api/v1/chat/completions";
+        "OPEN_ROUTER_LINK";
 
     public static void main(String[] args) throws Exception {
         System.out.println("=== Welcome to the Quiz System ===");
@@ -382,3 +382,4 @@ public class QuizApp {
         }
     }
 }
+
